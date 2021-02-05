@@ -1,1 +1,1 @@
-Processed Data
+This directory contains processsed data used for Group 1050's Data 301 course project.

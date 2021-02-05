@@ -1,1 +1,1 @@
-images
+This directory contains images used for Group 1050's Data 301 course project.

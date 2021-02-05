@@ -1,1 +1,1 @@
-Raw data
+This directory contains the raw data used in Group 1050's Data 301 course project.
