@@ -18,7 +18,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 ## Team Members
 
 - Thierry Martine, im 30 years old, 3rd year Statistics Major, part-time hockey coach!
-- Person 2: one sentence about you!
+- Ryan hughes, 4th year comp sci!
 - Person 3: one sentence about you!
 
 ## References
