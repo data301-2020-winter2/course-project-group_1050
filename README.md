@@ -19,7 +19,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 - Thierry Martine, im 30 years old, 3rd year Statistics Major, part-time hockey coach!
 - Ryan hughes, 4th year comp sci!
-- Person 3: one sentence about you!
+- Vincent Chen, 4th year international Econ student!
 
 ## References
 
