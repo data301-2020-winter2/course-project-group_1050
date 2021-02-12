@@ -1,5 +1,5 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=360943&assignment_repo_type=GroupAssignmentRepo)
-# Group 1050 - Go ahead, make my data
+# Group 1050 - Kermit the Smog (working title)
 
 - Your title can change over time.
 
@@ -9,7 +9,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+   Our topic deals with air quality at road level in a significantly polluted area of an Italian town. Our dataset takes in hourly measurements of various metal oxides present in the air. With hourly observations we should be able to tell if there are times of day when pollution is higher, lower, high for some metals but not others. Having data from one year of observations will allow us to potentially see trends over the days of the week. A useful dashboard for this data set would show, for each metal oxide, chart with trendlines that depict their quantaties over both hours of the day, and days of the week. Also a chart for the daily average of total airbourne metal oxides over the course of the year would be an interesting graphic. Our interest in this topic comes down to our lungs. We want to know how much metal we're breathing! 
 
 ## Describe your dataset in about 150-200 words
 
@@ -17,10 +17,10 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 ## Team Members
 
 
-- Thierry Martine, im 30 years old, 3rd year Statistics Major, part-time hockey coach!
+- Thierry Martine, 3rd year Statistics Major.
 - Ryan hughes, 4th year comp sci!
 - Vincent Chen, 4th year international Econ student!
 
 ## References
 
-{Add your stuff here}
+[Link](https://archive.ics.uci.edu/ml/datasets/Air+Quality) to our dataset!
