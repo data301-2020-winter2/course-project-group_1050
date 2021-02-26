@@ -1,9 +1,9 @@
-### Data 301 Course Project
+# Data 301 Course Project
 ## Data Analysis by Thierry Martine
 
 This directory contains all data analysis done by Thierry Martine for Data 301's course project.
 
-# Contents:
+### Contents:
 
 **1.** Milestone1.ipynb 
 - Milestone 1 reads our chosen data set *AirQualityUCI* into a pandas dataframe.
