@@ -7,6 +7,14 @@ url = 'https://raw.githubusercontent.com/data301-2020-winter2/course-project-gro
 
 def load_and_process(url):
     
+    import pandas as pd
+    import numpy as np
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+
+    url = 'https://raw.githubusercontent.com/data301-2020-winter2/course-project-group_1050/main/data/raw/AirQualityUCI.csv'
+
+    
     ## Read data from url
     raw_data = pd.read_csv(url, sep=';', decimal=',')
 
