@@ -9,19 +9,13 @@ def load_and_process(url):
     
     import pandas as pd
     import numpy as np
-    import os
-    import pandas as pd
-    import numpy as np
-    import seaborn as sns
-    import matplotlib.pyplot as plt
-    path_parent = os.path.dirname(os.getcwd())
-    os.chdir(path_parent)
-    os.chdir(path_parent)
+    
+
     url = 'https://raw.githubusercontent.com/data301-2020-winter2/course-project-group_1050/main/data/raw/AirQualityUCI.csv'
 
     
     ## Read data from url
-    raw_data = pd.read_csv(url)
+    raw_data = pd.read_csv(url, sep=';', decimal=',')
 
     ## Method chain 1
     ## drop rows and columns that consist entirely of NaN
