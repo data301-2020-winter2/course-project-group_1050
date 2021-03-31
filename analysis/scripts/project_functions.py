@@ -16,7 +16,7 @@ def load_and_process(url):
     
 
     ## Method chain 1
-     df1 = (
+    df1 = (
         pd.read_csv(url, sep=';', decimal=',')
         .dropna(axis=1, how='all')
         .dropna(how='all')
