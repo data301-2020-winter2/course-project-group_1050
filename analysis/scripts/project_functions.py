@@ -3,18 +3,18 @@ import numpy as np
 
 
 url = 'https://raw.githubusercontent.com/data301-2020-winter2/course-project-group_1050/main/data/raw/AirQualityUCI.csv'
-
-def load_and_process(url):
+path = 'data/raw/AirQualityUCI.csv'
+def load_and_process(path):
     
     import pandas as pd
     import numpy as np
     
-
+    path = "data/raw/AirQualityUCI.csv"
     url = 'https://raw.githubusercontent.com/data301-2020-winter2/course-project-group_1050/main/data/raw/AirQualityUCI.csv'
 
     
     ## Read data from url
-    raw_data = pd.read_csv(url, sep=';', decimal=',')
+    raw_data = pd.read_csv(path, sep=';', decimal=',')
 
     ## Method chain 1
     ## drop rows and columns that consist entirely of NaN
