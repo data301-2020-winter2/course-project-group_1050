@@ -1054,7 +1054,7 @@
       </table>
       <simple-id uuid='{B0BBF838-0209-422E-A26F-9F9EC9BDEFC6}' />
     </worksheet>
-    <worksheet name='Value vs Time'>
+    <worksheet lock-updates='true' name='Value vs Time'>
       <table>
         <view>
           <datasources>
@@ -1286,8 +1286,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='41' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99172' id='40' param='vert' w='99442' x='279' y='414'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='43' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='84000' id='42' param='vert' w='84000' x='8000' y='8000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='20042' id='37' w='99442' x='279' y='414'>
                   <formatted-text>
                     <run fontcolor='#24292e' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.</run>
@@ -1534,8 +1534,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='26' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99172' id='25' param='vert' w='99442' x='279' y='414'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='28' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99172' id='27' param='vert' w='99442' x='279' y='414'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='19938' id='15' w='99442' x='279' y='414'>
                   <formatted-text>
                     <run fontcolor='#24292e' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.</run>
@@ -1653,7 +1653,7 @@
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' name='Value vs Time'>
+    <window class='worksheet' maximized='true' name='Value vs Time'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1955,7 +1955,7 @@
       <active id='-1' />
       <simple-id uuid='{D443F8B9-1096-4338-AC6A-B9152CFBB5C8}' />
     </window>
-    <window class='dashboard' maximized='true' name='Tungsten Dash'>
+    <window class='dashboard' name='Tungsten Dash'>
       <viewpoints>
         <viewpoint name='Tungsten vs Month'>
           <zoom type='entire-view' />
