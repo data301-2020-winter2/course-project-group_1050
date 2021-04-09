@@ -25,5 +25,5 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 [Link](https://archive.ics.uci.edu/ml/datasets/Air+Quality) to our dataset!
 
-## References
+## Lab 7
 [Link](https://us-west-2b.online.tableau.com/#/site/data301/workbooks/346663?:origin=card_share_link) Tablaeu lab 7 link
