@@ -1,0 +1,2128 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0217.1203                               -->
+<workbook source-build='2020.4.2 (20204.21.0217.1203)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='processed' inline='true' name='federated.0825rmw0ekau601f1v4hb1adaime' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='processed' name='textscan.1dmoznj1llooo91ai2ok91f7k341'>
+            <connection class='textscan' directory='C:/Users/ryan/Desktop/course-project-group_1050-main/data/processed' filename='processed.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1dmoznj1llooo91ai2ok91f7k341' name='processed.csv' table='[processed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Time' ordinal='2' />
+            <column datatype='real' name='Cobalt (GT)' ordinal='3' />
+            <column datatype='real' name='Tin Oxide (CO)' ordinal='4' />
+            <column datatype='real' name='Non-metallic Hydrocarbons (GT)' ordinal='5' />
+            <column datatype='real' name='Benzene (GT)' ordinal='6' />
+            <column datatype='real' name='Titania (NMHC)' ordinal='7' />
+            <column datatype='real' name='Nitrogen Oxide (GT)' ordinal='8' />
+            <column datatype='real' name='Tungsten Oxide (NOx)' ordinal='9' />
+            <column datatype='real' name='Nitric Oxide (GT)' ordinal='10' />
+            <column datatype='real' name='Tungsten Oxide (NO2)' ordinal='11' />
+            <column datatype='real' name='Indium Oxide (O3)' ordinal='12' />
+            <column datatype='real' name='Temperature (C)' ordinal='13' />
+            <column datatype='real' name='Relative Humidity (%)' ordinal='14' />
+            <column datatype='real' name='Absolute Humidity (%)' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1dmoznj1llooo91ai2ok91f7k341' name='processed.csv' table='[processed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Time' ordinal='2' />
+            <column datatype='real' name='Cobalt (GT)' ordinal='3' />
+            <column datatype='real' name='Tin Oxide (CO)' ordinal='4' />
+            <column datatype='real' name='Non-metallic Hydrocarbons (GT)' ordinal='5' />
+            <column datatype='real' name='Benzene (GT)' ordinal='6' />
+            <column datatype='real' name='Titania (NMHC)' ordinal='7' />
+            <column datatype='real' name='Nitrogen Oxide (GT)' ordinal='8' />
+            <column datatype='real' name='Tungsten Oxide (NOx)' ordinal='9' />
+            <column datatype='real' name='Nitric Oxide (GT)' ordinal='10' />
+            <column datatype='real' name='Tungsten Oxide (NO2)' ordinal='11' />
+            <column datatype='real' name='Indium Oxide (O3)' ordinal='12' />
+            <column datatype='real' name='Temperature (C)' ordinal='13' />
+            <column datatype='real' name='Relative Humidity (%)' ordinal='14' />
+            <column datatype='real' name='Absolute Humidity (%)' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cobalt (GT)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cobalt (GT)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Cobalt (GT)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tin Oxide (CO)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tin Oxide (CO)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Tin Oxide (CO)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non-metallic Hydrocarbons (GT)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non-metallic Hydrocarbons (GT)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Non-metallic Hydrocarbons (GT)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Benzene (GT)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Benzene (GT)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Benzene (GT)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Titania (NMHC)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Titania (NMHC)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Titania (NMHC)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nitrogen Oxide (GT)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nitrogen Oxide (GT)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Nitrogen Oxide (GT)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tungsten Oxide (NOx)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tungsten Oxide (NOx)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Tungsten Oxide (NOx)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nitric Oxide (GT)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nitric Oxide (GT)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Nitric Oxide (GT)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tungsten Oxide (NO2)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tungsten Oxide (NO2)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Tungsten Oxide (NO2)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indium Oxide (O3)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Indium Oxide (O3)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Indium Oxide (O3)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature (C)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature (C)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Temperature (C)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relative Humidity (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Relative Humidity (%)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Relative Humidity (%)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Absolute Humidity (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Absolute Humidity (%)]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Absolute Humidity (%)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Absolute Humidity (%)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Benzene (GT)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Cobalt (GT)]' role='measure' type='quantitative' />
+      <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Indium Oxide (O3)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Nitric Oxide (GT)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Nitrogen Oxide (GT)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Non-metallic Hydrocarbons (GT)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Relative Humidity (%)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Tin Oxide (CO)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Titania (NMHC)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='processed.csv' datatype='table' name='[__tableau_internal_object_id__].[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Absolute Humidity (%)]' derivation='Attribute' name='[attr:Absolute Humidity (%):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NO2)]' derivation='Attribute' name='[attr:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NOx)]' derivation='Attribute' name='[attr:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Benzene (GT)]' derivation='Avg' name='[avg:Benzene (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cobalt (GT)]' derivation='Avg' name='[avg:Cobalt (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide (O3)]' derivation='Avg' name='[avg:Indium Oxide (O3):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nitric Oxide (GT)]' derivation='Avg' name='[avg:Nitric Oxide (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nitrogen Oxide (GT)]' derivation='Avg' name='[avg:Nitrogen Oxide (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Non-metallic Hydrocarbons (GT)]' derivation='Avg' name='[avg:Non-metallic Hydrocarbons (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Temperature (C)]' derivation='Avg' name='[avg:Temperature (C):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide (CO)]' derivation='Avg' name='[avg:Tin Oxide (CO):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania (NMHC)]' derivation='Avg' name='[avg:Titania (NMHC):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Benzene (GT)]' derivation='Median' name='[med:Benzene (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NO2)]' derivation='Median' name='[med:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NOx)]' derivation='Median' name='[med:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Absolute Humidity (%)]' derivation='None' name='[none:Absolute Humidity (%):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Relative Humidity (%)]' derivation='None' name='[none:Relative Humidity (%):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Absolute Humidity (%)]' derivation='Sum' name='[sum:Absolute Humidity (%):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Benzene (GT)]' derivation='Sum' name='[sum:Benzene (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cobalt (GT)]' derivation='Sum' name='[sum:Cobalt (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indium Oxide (O3)]' derivation='Sum' name='[sum:Indium Oxide (O3):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nitric Oxide (GT)]' derivation='Sum' name='[sum:Nitric Oxide (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nitrogen Oxide (GT)]' derivation='Sum' name='[sum:Nitrogen Oxide (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Non-metallic Hydrocarbons (GT)]' derivation='Sum' name='[sum:Non-metallic Hydrocarbons (GT):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Relative Humidity (%)]' derivation='Sum' name='[sum:Relative Humidity (%):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Temperature (C)]' derivation='Sum' name='[sum:Temperature (C):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tin Oxide (CO)]' derivation='Sum' name='[sum:Tin Oxide (CO):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Titania (NMHC)]' derivation='Sum' name='[sum:Titania (NMHC):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NO2)]' derivation='Sum' name='[sum:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tungsten Oxide (NOx)]' derivation='Sum' name='[sum:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+      <group caption='Action (MONTH(Date))' hidden='true' name='[Action (MONTH(Date))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[mn:Date:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Relative Humidity (%))' hidden='true' name='[Action (Relative Humidity (%))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Relative Humidity (%):ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Temperature (C))' hidden='true' name='[Action (Temperature (C))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Temperature (C):ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Time)' hidden='true' name='[Action (Time)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Time]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Indium Oxide (O3):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[attr:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[med:Tungsten Oxide (NO2):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Tungsten Oxide (NO2):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Non-metallic Hydrocarbons (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Nitric Oxide (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Cobalt (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Titania (NMHC):qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[attr:Absolute Humidity (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[none:Absolute Humidity (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Absolute Humidity (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Non-metallic Hydrocarbons (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[__tableau_internal_object_id__].[cnt:processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[attr:Tungsten Oxide (NO2):qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Tin Oxide (CO):qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Relative Humidity (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitric Oxide (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Temperature (C):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Temperature (C):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitrogen Oxide (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:F1:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Indium Oxide (O3):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[med:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Titania (NMHC):qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Nitrogen Oxide (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tin Oxide (CO):qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[med:Benzene (GT):qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Benzene (GT):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='processed.csv' id='processed.csv_5B5DDE1B94FC4C708DA2929B4C19B102'>
+            <properties context=''>
+              <relation connection='textscan.1dmoznj1llooo91ai2ok91f7k341' name='processed.csv' table='[processed#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='string' name='Time' ordinal='2' />
+                  <column datatype='real' name='Cobalt (GT)' ordinal='3' />
+                  <column datatype='real' name='Tin Oxide (CO)' ordinal='4' />
+                  <column datatype='real' name='Non-metallic Hydrocarbons (GT)' ordinal='5' />
+                  <column datatype='real' name='Benzene (GT)' ordinal='6' />
+                  <column datatype='real' name='Titania (NMHC)' ordinal='7' />
+                  <column datatype='real' name='Nitrogen Oxide (GT)' ordinal='8' />
+                  <column datatype='real' name='Tungsten Oxide (NOx)' ordinal='9' />
+                  <column datatype='real' name='Nitric Oxide (GT)' ordinal='10' />
+                  <column datatype='real' name='Tungsten Oxide (NO2)' ordinal='11' />
+                  <column datatype='real' name='Indium Oxide (O3)' ordinal='12' />
+                  <column datatype='real' name='Temperature (C)' ordinal='13' />
+                  <column datatype='real' name='Relative Humidity (%)' ordinal='14' />
+                  <column datatype='real' name='Absolute Humidity (%)' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20210408T105412' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20210408T105412' name='Clipboard_20210408T105412leaf'>
+            <connection class='textscan' directory='C:/Users/ryan/AppData/Local/Temp/TableauTemp/0a2xihi0xksurt10554t11x0i0v4' filename='Clipboard_20210408T105412.txt' temporary='yes' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='Clipboard_20210408T105412leaf' name='Clipboard_20210408T105412#txt' table='[Clipboard_20210408T105412#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator='&#9;'>
+            <column datatype='string' name='Measure Names' ordinal='0' />
+            <column datatype='string' name='Time' ordinal='1' />
+            <column datatype='real' name='Measure Values' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='Clipboard_20210408T105412leaf' name='Clipboard_20210408T105412#txt' table='[Clipboard_20210408T105412#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator='&#9;'>
+            <column datatype='string' name='Measure Names' ordinal='0' />
+            <column datatype='string' name='Time' ordinal='1' />
+            <column datatype='real' name='Measure Values' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20210408T105412#txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Measure Names]</local-name>
+            <parent-name>[Clipboard_20210408T105412#txt]</parent-name>
+            <remote-alias>Measure Names</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20210408T105412]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[Clipboard_20210408T105412#txt]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20210408T105412]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Measure Values]</local-name>
+            <parent-name>[Clipboard_20210408T105412#txt]</parent-name>
+            <remote-alias>Measure Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20210408T105412]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Clipboard_20210408T105412' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20210408T105412]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clipboard_20210408T105412' id='Clipboard_20210408T105412'>
+            <properties context=''>
+              <relation connection='Clipboard_20210408T105412leaf' name='Clipboard_20210408T105412#txt' table='[Clipboard_20210408T105412#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator='&#9;'>
+                  <column datatype='string' name='Measure Names' ordinal='0' />
+                  <column datatype='string' name='Time' ordinal='1' />
+                  <column datatype='real' name='Measure Values' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='All Airbourne Metals Dash' type='sheet' worksheet='Value vs Time' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='All Airbourne Metals Dash' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Tungsten Dash' type='sheet' worksheet='Tungsten vs Temp' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Tungsten Dash' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='All Airbourne Metals Dash' type='sheet' worksheet='Value vs Relative Humidity' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='All Airbourne Metals Dash' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='All Airbourne Metals Dash' type='sheet' worksheet='Value vs Temp' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='All Airbourne Metals Dash' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Tungsten Dash' type='sheet' worksheet='Tungsten vs Time' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Tungsten Dash' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Tungsten vs Month'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]'>
+            <groupfilter function='level-members' level='[none:Temperature (C):ok]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[mn:Date:ok]'>
+            <groupfilter function='level-members' level='[mn:Date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[mn:Date:ok]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0825rmw0ekau601f1v4hb1adaime].[mn:Date:ok]' value='92' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='22' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols>[federated.0825rmw0ekau601f1v4hb1adaime].[mn:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{0906FAFC-596E-4CF9-BC4C-2262CCAF9178}' />
+    </worksheet>
+    <worksheet name='Tungsten vs Temp'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]' included-values='in-range'>
+            <min>559.0</min>
+            <max>1886.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>29.0</max>
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]</cols>
+      </table>
+      <simple-id uuid='{CF6F189B-DA1F-4D0B-BA76-E577FF13C400}' />
+    </worksheet>
+    <worksheet name='Tungsten vs Time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Time]' derivation='None' name='[none:Time:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (MONTH(Date))]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[mn:Date:ok]' member='5' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='6' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='7' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='8' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='9' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='10' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]'>
+            <groupfilter function='level-members' level='[none:Temperature (C):ok]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (MONTH(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Time:nk]' value='47' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Time:nk]</cols>
+      </table>
+      <simple-id uuid='{56C2C39D-6E26-4E38-BD69-21665CBFEBE4}' />
+    </worksheet>
+    <worksheet name='Tungsten vs Time (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Time]' derivation='None' name='[none:Time:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (MONTH(Date))]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[mn:Date:ok]' member='1' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='2' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='3' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='4' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='11' />
+              <groupfilter function='member' level='[mn:Date:ok]' member='12' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]'>
+            <groupfilter function='level-members' level='[none:Temperature (C):ok]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (MONTH(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Time:nk]' value='47' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Time:nk]</cols>
+      </table>
+      <simple-id uuid='{8167E2FF-0BF1-4908-B6DC-FE573F64F470}' />
+    </worksheet>
+    <worksheet name='Value vs Absolute Humidity'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='real' name='[Absolute Humidity (%)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Benzene (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cobalt (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Indium Oxide (O3)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitric Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitrogen Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tin Oxide (CO)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Titania (NMHC)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Benzene (GT)]' derivation='Avg' name='[avg:Benzene (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cobalt (GT)]' derivation='Avg' name='[avg:Cobalt (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Indium Oxide (O3)]' derivation='Avg' name='[avg:Indium Oxide (O3):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitric Oxide (GT)]' derivation='Avg' name='[avg:Nitric Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitrogen Oxide (GT)]' derivation='Avg' name='[avg:Nitrogen Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide (CO)]' derivation='Avg' name='[avg:Tin Oxide (CO):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania (NMHC)]' derivation='Avg' name='[avg:Titania (NMHC):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Absolute Humidity (%)]' derivation='None' name='[none:Absolute Humidity (%):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Indium Oxide (O3):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitric Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitrogen Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tin Oxide (CO):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Titania (NMHC):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Absolute Humidity (%):ok]</cols>
+      </table>
+      <simple-id uuid='{670A6DFA-70BA-448B-8546-981A0D0B5346}' />
+    </worksheet>
+    <worksheet name='Value vs Relative Humidity'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='real' name='[Benzene (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cobalt (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Indium Oxide (O3)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitric Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitrogen Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Relative Humidity (%)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Tin Oxide (CO)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Titania (NMHC)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Benzene (GT)]' derivation='Avg' name='[avg:Benzene (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cobalt (GT)]' derivation='Avg' name='[avg:Cobalt (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Indium Oxide (O3)]' derivation='Avg' name='[avg:Indium Oxide (O3):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitric Oxide (GT)]' derivation='Avg' name='[avg:Nitric Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitrogen Oxide (GT)]' derivation='Avg' name='[avg:Nitrogen Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide (CO)]' derivation='Avg' name='[avg:Tin Oxide (CO):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania (NMHC)]' derivation='Avg' name='[avg:Titania (NMHC):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Relative Humidity (%)]' derivation='None' name='[none:Relative Humidity (%):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Indium Oxide (O3):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitric Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitrogen Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tin Oxide (CO):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Titania (NMHC):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]'>
+            <groupfilter function='level-members' level='[none:Temperature (C):ok]' user:ui-action-filter='[Action4]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Time)]'>
+            <groupfilter function='member' level='[Time]' member='&quot;10.00.00&quot;' user:ui-action-filter='[Action1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]' included-values='in-range'>
+            <min>0.31</min>
+            <max>3.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]' included-values='in-range' />
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Relative Humidity (%):ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Relative Humidity (%):ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='35.600000000000001' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='46.700000000000003' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='48.700000000000003' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='50.100000000000001' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='56.100000000000001' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='56.799999999999997' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='57.899999999999999' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='58.899999999999999' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='59.600000000000001' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='63.600000000000001' />
+                <groupfilter function='member' level='[none:Relative Humidity (%):ok]' member='64.299999999999997' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Time)]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Relative Humidity (%):ok]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Relative Humidity (%):ok]</cols>
+      </table>
+      <simple-id uuid='{EACDE5C8-4870-4E21-BE74-3A46BFF7D7E2}' />
+    </worksheet>
+    <worksheet name='Value vs Temp'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='real' name='[Benzene (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cobalt (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Indium Oxide (O3)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitric Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitrogen Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Non-metallic Hydrocarbons (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Relative Humidity (%)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Tin Oxide (CO)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Titania (NMHC)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Benzene (GT)]' derivation='Avg' name='[avg:Benzene (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cobalt (GT)]' derivation='Avg' name='[avg:Cobalt (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Indium Oxide (O3)]' derivation='Avg' name='[avg:Indium Oxide (O3):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitric Oxide (GT)]' derivation='Avg' name='[avg:Nitric Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitrogen Oxide (GT)]' derivation='Avg' name='[avg:Nitrogen Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Non-metallic Hydrocarbons (GT)]' derivation='Avg' name='[avg:Non-metallic Hydrocarbons (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide (CO)]' derivation='Avg' name='[avg:Tin Oxide (CO):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania (NMHC)]' derivation='Avg' name='[avg:Titania (NMHC):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Relative Humidity (%)]' derivation='None' name='[none:Relative Humidity (%):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Sum' name='[sum:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Indium Oxide (O3):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitric Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitrogen Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Non-metallic Hydrocarbons (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tin Oxide (CO):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Titania (NMHC):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Indium Oxide (O3):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitric Oxide (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitrogen Oxide (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Non-metallic Hydrocarbons (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tin Oxide (CO):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Titania (NMHC):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[sum:Tungsten Oxide (NOx):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Relative Humidity (%))]'>
+            <groupfilter function='level-members' level='[none:Relative Humidity (%):ok]' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Time)]'>
+            <groupfilter function='member' level='[Time]' member='&quot;10.00.00&quot;' user:ui-action-filter='[Action1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Temperature (C):ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Temperature (C):ok]' member='12.300000000000001' />
+                <groupfilter function='member' level='[none:Temperature (C):ok]' member='12.5' />
+                <groupfilter function='member' level='[none:Temperature (C):ok]' member='12.800000000000001' />
+                <groupfilter function='member' level='[none:Temperature (C):ok]' member='12.9' />
+                <groupfilter function='member' level='[none:Temperature (C):ok]' member='13.699999999999999' />
+                <groupfilter function='member' level='[none:Temperature (C):ok]' member='13.9' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]' included-values='in-range'>
+            <min>12.0</min>
+            <max>30.0</max>
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Time)]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):ok]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Relative Humidity (%))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]</cols>
+      </table>
+      <simple-id uuid='{B0BBF838-0209-422E-A26F-9F9EC9BDEFC6}' />
+    </worksheet>
+    <worksheet name='Value vs Time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+            <column datatype='real' name='[Benzene (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cobalt (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Indium Oxide (O3)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitric Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Nitrogen Oxide (GT)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Relative Humidity (%)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Tin Oxide (CO)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Titania (NMHC)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NO2)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+            <column-instance column='[Benzene (GT)]' derivation='Avg' name='[avg:Benzene (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cobalt (GT)]' derivation='Avg' name='[avg:Cobalt (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Indium Oxide (O3)]' derivation='Avg' name='[avg:Indium Oxide (O3):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitric Oxide (GT)]' derivation='Avg' name='[avg:Nitric Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitrogen Oxide (GT)]' derivation='Avg' name='[avg:Nitrogen Oxide (GT):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tin Oxide (CO)]' derivation='Avg' name='[avg:Tin Oxide (CO):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Titania (NMHC)]' derivation='Avg' name='[avg:Titania (NMHC):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NO2)]' derivation='Avg' name='[avg:Tungsten Oxide (NO2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Relative Humidity (%)]' derivation='None' name='[none:Relative Humidity (%):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Time]' derivation='None' name='[none:Time:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Indium Oxide (O3):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitric Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitrogen Oxide (GT):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tin Oxide (CO):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Titania (NMHC):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Indium Oxide (O3):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitric Oxide (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Nitrogen Oxide (GT):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NO2):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tin Oxide (CO):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Relative Humidity (%))]'>
+            <groupfilter function='level-members' level='[none:Relative Humidity (%):ok]' user:ui-action-filter='[Action3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]'>
+            <groupfilter function='level-members' level='[none:Temperature (C):ok]' user:ui-action-filter='[Action4]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Time:nk]'>
+            <groupfilter function='level-members' level='[none:Time:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[none:Time:nk]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Relative Humidity (%))]</column>
+            <column>[federated.0825rmw0ekau601f1v4hb1adaime].[Action (Temperature (C))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='15' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0825rmw0ekau601f1v4hb1adaime].[Multiple Values]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{E5E26719-3430-41A8-BA2F-6970E796B737}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='All Airbourne Metals Dash'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+        <column datatype='real' name='[Benzene (GT)]' role='measure' type='quantitative' />
+        <column datatype='real' name='[Cobalt (GT)]' role='measure' type='quantitative' />
+        <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+        <column datatype='real' name='[Tungsten Oxide (NOx)]' role='measure' type='quantitative' />
+        <column-instance column='[Benzene (GT)]' derivation='Avg' name='[avg:Benzene (GT):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Cobalt (GT)]' derivation='Avg' name='[avg:Cobalt (GT):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Tungsten Oxide (NOx)]' derivation='Avg' name='[avg:Tungsten Oxide (NOx):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='79140' id='17' param='horz' w='99362' x='319' y='20449'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='79140' id='15' w='92972' x='319' y='20449'>
+              <zone h='34305' id='13' name='Value vs Time' w='92972' x='319' y='65284'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='36222' id='14' name='Value vs Temp' w='46489' x='46802' y='23793'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='39566' id='24' name='Value vs Relative Humidity' w='46483' x='319' y='20449'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='5269' id='29' w='92972' x='319' y='60015'>
+                <formatted-text>
+                  <run auto-url='true' bold='true' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' hyperlink='tabdoc:load-url url=&amp;quot;W&amp;quot;'>W</run>
+                  <run bold='true' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif'>hat times of day have the highest (and lowest) air pollution</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='3344' id='31' w='46489' x='46802' y='20449'>
+                <formatted-text>
+                  <run>What is the econcentration between 12c and 30c?</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='79140' id='16' is-fixed='true' param='vert' w='6390' x='93291' y='20449'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='12339' id='18' name='Value vs Temp' pane-specification-id='0' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' w='6390' x='93291' y='20449'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3753' id='30' name='Value vs Temp' param='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]' values='database' w='6390' x='93291' y='32788'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3753' id='32' name='Value vs Relative Humidity' param='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]' values='database' w='6390' x='93291' y='36541'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3753' id='33' name='Value vs Relative Humidity' param='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]' values='database' w='6390' x='93291' y='40294'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3753' id='34' name='Value vs Relative Humidity' param='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]' values='database' w='6390' x='93291' y='44047'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='20038' id='37' w='99362' x='319' y='411'>
+            <formatted-text>
+              <run fontcolor='#24292e' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='41' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99172' id='40' param='vert' w='99442' x='279' y='414'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='20042' id='37' w='99442' x='279' y='414'>
+                  <formatted-text>
+                    <run fontcolor='#24292e' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3780' id='32' name='Value vs Relative Humidity' param='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Tungsten Oxide (NOx):qk]' values='database' w='5589' x='94132' y='36665'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3780' id='33' name='Value vs Relative Humidity' param='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Benzene (GT):qk]' values='database' w='5589' x='94132' y='40445'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3780' id='34' name='Value vs Relative Humidity' param='[federated.0825rmw0ekau601f1v4hb1adaime].[avg:Cobalt (GT):qk]' values='database' w='5589' x='94132' y='44225'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39565' id='24' is-fixed='true' name='Value vs Relative Humidity' w='46925' x='279' y='20456'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='3348' id='31' w='46928' x='47204' y='20456'>
+                  <formatted-text>
+                    <run>What is the econcentration between 12c and 30c?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3780' id='30' name='Value vs Temp' param='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]' values='database' w='5589' x='94132' y='32885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36217' id='14' is-fixed='true' name='Value vs Temp' w='46928' x='47204' y='23804'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='12429' id='18' name='Value vs Temp' pane-specification-id='0' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' w='5589' x='94132' y='20456'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='5269' id='29' w='93853' x='279' y='60021'>
+                  <formatted-text>
+                    <run auto-url='true' bold='true' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' hyperlink='tabdoc:load-url url=&amp;quot;W&amp;quot;'>W</run>
+                    <run bold='true' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif'>hat times of day have the highest (and lowest) air pollution</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='267' h='34296' id='13' is-fixed='true' name='Value vs Time' w='93853' x='279' y='65290'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FE5CD777-06C7-4961-A8FA-0C3A6246D7B2}' />
+    </dashboard>
+    <dashboard name='Tungsten Dash'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='processed' name='federated.0825rmw0ekau601f1v4hb1adaime' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0825rmw0ekau601f1v4hb1adaime'>
+        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+        <column datatype='real' name='[Temperature (C)]' role='measure' type='quantitative' />
+        <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[Temperature (C)]' derivation='None' name='[none:Temperature (C):qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='29461' id='7' param='horz' w='99552' x='224' y='70127'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='29461' id='5' w='95069' x='224' y='70127'>
+              <zone h='7453' id='3' name='Tungsten vs Month' w='95069' x='224' y='92135'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='19638' id='10' name='Tungsten vs Temp' w='95069' x='224' y='70127'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='2370' id='20' w='95069' x='224' y='89765'>
+                <formatted-text>
+                  <run>How does tungsten concentrations vary between april - october?</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='29461' id='6' is-fixed='true' param='vert' w='4483' x='95293' y='70127'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='3709' id='8' name='Tungsten vs Month' pane-specification-id='1' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' w='4483' x='95293' y='70127'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' fixed-size='14' h='1133' id='16' is-fixed='true' name='Tungsten vs Month' param='[federated.0825rmw0ekau601f1v4hb1adaime].[mn:Date:ok]' values='database' w='4483' x='95293' y='73836'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' fixed-size='24' h='1648' id='17' is-fixed='true' name='Tungsten vs Temp' param='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]' values='database' w='4483' x='95293' y='74969'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='11485' id='27' name='Tungsten vs Time' param='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (MONTH(Date))]' values='database' w='4483' x='95293' y='76617'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='11486' id='29' name='Tungsten vs Time (2)' param='[federated.0825rmw0ekau601f1v4hb1adaime].[Action (MONTH(Date))]' values='database' w='4483' x='95293' y='88102'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='3546' id='15' w='99552' x='224' y='412'>
+            <formatted-text>
+              <run fontcolor='#24292e' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='21695' id='9' name='Tungsten vs Time' w='99552' x='224' y='39948'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='19020' id='18' w='99552' x='224' y='3958'>
+            <formatted-text>
+              <run bold='true' fontalignment='1'>How do tungsten concentrations vary with time in the colder months?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8484' id='19' w='99552' x='224' y='61643'>
+            <formatted-text>
+              <run>How do tungsten concentrations vary with temp between 1 to 29c?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='10337' id='28' name='Tungsten vs Time (2)' w='99552' x='224' y='22978'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='6633' id='30' w='99552' x='224' y='33315'>
+            <formatted-text>
+              <run bold='true' fontalignment='1'>How do tungsten concentrations vary with time in the warmer months?</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='26' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='99172' id='25' param='vert' w='99442' x='279' y='414'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='19938' id='15' w='99442' x='279' y='414'>
+                  <formatted-text>
+                    <run fontcolor='#24292e' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.The Air Quality data set was provided by Saverio De Vito (saverio.devito &apos;@&apos; enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development. The data set contains 14 attributes consisting of Date, Time, True hourly averaged concentration CO in mg/m^3, PT08.S1 (tin oxide) hourly averaged sensor response, True hourly averaged overall Non-Metanic HydroCarbons concentration in microg/m^3, True hourly averaged Benzene concentration in microg/m^3 , PT08.S2 (titania) hourly averaged sensor response, 7 True hourly averaged NOx concentration in ppb, 8 PT08.S3 (tungsten oxide) hourly averaged sensor response, True hourly averaged NO2 concentration in microg/m^3, PT08.S4 (tungsten oxide) hourly averaged sensor response, PT08.S5 (indium oxide) hourly averaged sensor response, Temperature, Relative Humidity, AH Absolute Humidity. This data set was collected hourly via digital sensors over a 1 year period (March 2004 - Feb 2005) in a &quot;highly polluted&quot; Italian town at road level and is reserved eclusively for research purposes.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='2434' id='18' w='99442' x='279' y='20352'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1'>How do tungsten concentrations vary with time in the colder months?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='115' h='15381' id='9' is-fixed='true' name='Tungsten vs Time' w='99442' x='279' y='22786'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='6111' id='19' w='99442' x='279' y='38167'>
+                  <formatted-text>
+                    <run>How do tungsten concentrations vary with temp between 1 to 29c?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='3780' id='17' name='Tungsten vs Temp' param='[federated.0825rmw0ekau601f1v4hb1adaime].[none:Temperature (C):qk]' values='database' w='5589' x='94132' y='65354'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='171' h='22371' id='10' is-fixed='true' name='Tungsten vs Temp' w='93853' x='279' y='44278'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='4920' id='20' w='93853' x='279' y='66649'>
+                  <formatted-text>
+                    <run>How does tungsten concentrations vary between april - october?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='17348' id='16' mode='checkdropdown' name='Tungsten vs Month' param='[federated.0825rmw0ekau601f1v4hb1adaime].[mn:Date:ok]' values='database' w='5589' x='94132' y='48006'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='216' h='28017' id='3' is-fixed='true' name='Tungsten vs Month' w='93853' x='279' y='71569'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='3728' id='8' name='Tungsten vs Month' pane-specification-id='1' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' w='5589' x='94132' y='44278'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CE0AE3F3-F8B9-461D-9888-B56826E0A22D}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='63'>
+    <window class='worksheet' name='Value vs Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='15' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B26AD150-1604-490F-A07D-41B31BC1BCB8}' />
+    </window>
+    <window class='worksheet' name='Value vs Temp'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='300'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{77FED8DD-0F84-435D-A0B6-4DB2CB539311}' />
+    </window>
+    <window class='worksheet' name='Value vs Absolute Humidity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{87D60260-0435-41B7-9EBE-AC21EF0E5A6E}' />
+    </window>
+    <window class='worksheet' name='Value vs Relative Humidity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A5E045B4-6180-4923-9BA0-7F507A677373}' />
+    </window>
+    <window class='worksheet' name='Tungsten vs Temp'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8A08473B-F073-4551-A441-6DB6596991ED}' />
+    </window>
+    <window class='worksheet' name='Tungsten vs Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{971240C8-FCBD-42DE-AAA3-27EFD80FABD5}' />
+    </window>
+    <window class='worksheet' name='Tungsten vs Time (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{319009E2-0885-4396-B1C8-656C18963ABC}' />
+    </window>
+    <window class='worksheet' name='Tungsten vs Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='208'>
+            <card pane-specification-id='1' param='[federated.0825rmw0ekau601f1v4hb1adaime].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FD34A56C-1194-4114-AD67-8F1369E8B8ED}' />
+    </window>
+    <window class='dashboard' name='All Airbourne Metals Dash'>
+      <viewpoints>
+        <viewpoint name='Value vs Relative Humidity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Value vs Temp'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Value vs Time'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='16' />
+      <simple-id uuid='{D443F8B9-1096-4338-AC6A-B9152CFBB5C8}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Tungsten Dash'>
+      <viewpoints>
+        <viewpoint name='Tungsten vs Month'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tungsten vs Temp'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tungsten vs Time'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tungsten vs Time (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{DF0796AC-BAFB-45EE-B63C-0E371BCD337C}' />
+    </window>
+  </windows>
+</workbook>
